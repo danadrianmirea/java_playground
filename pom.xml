@@ -22,6 +22,7 @@
         <module>functions-test</module>
         <module>read-input</module>
         <module>spinning-cube</module>
+        <module>jme-hello-world</module>
     </modules>
 
     <build>
