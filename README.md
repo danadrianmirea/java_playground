@@ -2,7 +2,6 @@
 
 A multi-module Maven project for learning Java. Each module is an independent program with its own `main()` method.
 
-```
 ## Building All Modules
 
 ```bash
