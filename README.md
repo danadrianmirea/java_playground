@@ -20,6 +20,11 @@ java -jar for-loop/target/for-loop-1.0.0-SNAPSHOT.jar
 ```
 etc
 
+## To build and run
+```bash
+mvn clean package -pl .\jme-hello-world\ exec:java
+'''
+
 ## Cleaning Build Artifacts
 ```bash
 mvn clean
