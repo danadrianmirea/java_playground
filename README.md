@@ -10,7 +10,6 @@ mvn clean install
 ```bash
 mvn clean install -pl hello-world
 ```
-etc
 
 ## Running Individual Programs
 ```bash
