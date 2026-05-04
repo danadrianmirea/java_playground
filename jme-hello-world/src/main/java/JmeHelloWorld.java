@@ -98,6 +98,6 @@ public class JmeHelloWorld extends SimpleApplication {
     @Override
     public void simpleUpdate(float tpf) {
         // Rotate the cube over time
-        rootNode.getChild("Cube").rotate(0.0f, tpf, 0.0f);
+        rootNode.getChild("Cube").rotate(0.0f`, tpf, 0.0f);
     }
 }

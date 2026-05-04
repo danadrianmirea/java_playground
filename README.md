@@ -3,27 +3,34 @@ A multi-module Maven project for learning Java. Each module is an independent pr
 
 ## Building All Modules
 ```bash
-mvn clean package
+mvn clean install
 ```
 
 ## Building a Single Module
 ```bash
-mvn clean package -pl hello-world
-mvn clean package -pl for-loop
+mvn clean install -pl hello-world
 ```
 etc
 
 ## Running Individual Programs
 ```bash
 java -jar hello-world/target/hello-world-1.0.0-SNAPSHOT.jar
-java -jar for-loop/target/for-loop-1.0.0-SNAPSHOT.jar
 ```
-etc
+or
+```bash
+mvn exec:java -pl hello-world
+mvn -q exec:java -pl hello-world (quiet, just the program output)
+```
 
 ## To build and run
+
 ```bash
-mvn clean package -pl .\jme-hello-world\ exec:java
-'''
+mvn clean install -pl .\jme-hello-world\ exec:java
+```
+or from the module directory
+```bash
+mvn clean install exec:java
+```
 
 ## Cleaning Build Artifacts
 ```bash
