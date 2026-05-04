@@ -1,1 +1,0 @@
- jar cfm HelloWorld.jar .\MANIFEST.MF .\HelloWorld.class
