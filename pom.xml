@@ -21,6 +21,7 @@
         <module>for-loop</module>
         <module>functions-test</module>
         <module>read-input</module>
+        <module>spinning-cube</module>
     </modules>
 
     <build>
